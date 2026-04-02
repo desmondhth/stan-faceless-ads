@@ -1,0 +1,45 @@
+{
+  "name": "example_maki_training",
+  "sections": [
+    {
+      "type": "visual_clip",
+      "source": "maki_fight.mp4",
+      "duration": 3.5,
+      "scale_mode": "fit",
+      "text_overlays": [
+        {
+          "text": "66 Days.\nProject Maki.",
+          "position": "top",
+          "appear_at": 0.0,
+          "duration": 3.5,
+          "font_size": 66
+        }
+      ]
+    },
+    {
+      "type": "visual_clip",
+      "source": "maki_spear.mp4",
+      "duration": 4.0,
+      "scale_mode": "fit",
+      "text_overlays": [
+        {
+          "text": "Zero cursed energy.\nZero excuses.\nPure discipline.",
+          "position": "top",
+          "appear_at": 0.0,
+          "duration": 4.0,
+          "font_size": 52
+        }
+      ]
+    },
+    {
+      "type": "pov_demo",
+      "source": "pov_demo.mov",
+      "start": 0,
+      "end": 10
+    }
+  ],
+  "audio": {
+    "source": "phonk_track.mp3",
+    "volume": 0.6
+  }
+}

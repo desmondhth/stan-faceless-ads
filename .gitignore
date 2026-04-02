@@ -1,0 +1,17 @@
+# Assets (large files — team members download their own)
+assets/visual_clips/*.mp4
+assets/audio/*.mp3
+assets/pov_demo/*.mov
+assets/pov_demo/*.mp4
+
+# Output
+output/
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# OS
+.DS_Store
+Thumbs.db
